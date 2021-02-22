@@ -20,7 +20,8 @@ I am currently a sophomore at Binghamton University, majoring in Computer Scienc
 
 
 ### 🌱 I’m currently learning ...
-[Blender](https://www.blender.org/), a free 3D modeling software
+- [Blender](https://www.blender.org/), a free 3D modeling software\
+- Regular Expressions
 
 ### 😄 Pronouns: ...
 He, him, his
