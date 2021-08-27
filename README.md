@@ -16,12 +16,13 @@ I know HTML, CSS, Javascript, a bit of C, and Java.\
 I'm planning to improve on these languages, and also learn some new ones as well!\
 I'm hoping I could work on myself to take more opportunities and learn.
 
-I am currently a sophomore at Binghamton University, majoring in Computer Science.
+I am currently a junior at Binghamton University, majoring in Computer Science.
 
 
 ### 🌱 I’m currently learning ...
-- [Blender](https://www.blender.org/), a free 3D modeling software\
-- Regular Expressions
+- Progressive Web Apps (PWA)
+- Responsive Web Design (RWD)
+- Restful APIs
 
 ### 😄 Pronouns: ...
 He, him, his
