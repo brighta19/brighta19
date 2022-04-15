@@ -21,8 +21,7 @@ I am currently a junior at Binghamton University, majoring in Computer Science.
 
 ### 🌱 I’m currently learning ...
 - Progressive Web Apps (PWA)
-- Responsive Web Design (RWD)
-- Restful APIs
+- Svelte
 
 ### 😄 Pronouns: ...
 He, him, his
