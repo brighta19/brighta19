@@ -1,0 +1,38 @@
+<!-- Well, hello there! -->
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="180">
+  <style>
+    text { font: 150% Calibri, sans-serif; fill: #4b0082; stroke: #ddaeff; }
+    .small { font-size: 90%; }
+    .bold { font-weight: bold; }
+    .yellow { fill: #ffdd00; }
+    .underline { text-decoration: underline; }
+    .star { animation: star 8s infinite linear; stroke: white; fill: white; }
+    .star#star-reverse { animation: star 8s infinite linear reverse; }
+    .border { stroke: #8855dd; fill: none; stroke-width: 2; }
+
+    @keyframes star {
+      0% { transform: rotate(0deg) }
+      100% { transform: rotate(360deg) }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="bg" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0000ff">
+        <animate attributeName="stop-color" values="#0000ff;#22ff66;#0000ff" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#4b0082">
+        <animate attributeName="stop-color" values="#4b0082;#2222cc;#4b0082" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <rect class="border" x="10%" y="5%" width="80%" height="90%" />
+
+  <text x="20%" y="25%">
+    <tspan dy="0em" x="20%">HTML | CSS | Javascript | Node | Svelte | PWA</tspan>
+    <tspan dy="1.4em" x="20%">Flutter | C | C++ | Java | Python | Ruby | SQL</tspan>
+    <tspan dy="1.4em" x="20%">Linux | Bash | Git | GitHub | Docker | Firebase</tspan>
+    <tspan dy="1.4em" x="20%">Supabase | Heroku</tspan>
+  </text>
+</svg>

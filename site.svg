@@ -1,0 +1,56 @@
+<!-- Well, hello there! -->
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="50">
+  <style>
+    text { font: 150% Calibri, sans-serif; fill: white; text-shadow: 0 0 5px black; }
+    .bold { font-weight: bold; }
+    .yellow { fill: #ffdd00; }
+    .underline { text-decoration: underline; }
+    .star { animation: star 8s infinite linear; stroke: white; fill: white; }
+    .star#star-reverse { animation: star 8s infinite linear reverse; }
+    .background { fill: url(#bg); }
+
+    @keyframes star {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="bg" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0000ff">
+        <animate attributeName="stop-color" values="#0000ff;#22ff66;#0000ff" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#4b0082">
+        <animate attributeName="stop-color" values="#4b0082;#2222cc;#4b0082" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <polygon
+      id="star"
+      class="star"
+      points="20,0 40.45,29.38 6.18,19.02 -15.46,47.55 -16.19,11.75 -50,0 -16.19,-11.76 -15.46,-47.56 6.18,-19.03 40.45,-29.39"
+      stroke="white"
+      stroke-width="5"
+      opacity="0.2"
+      stroke-linejoin="round"
+    />
+    <polygon
+      id="star-reverse"
+      class="star"
+      points="20,0 40.45,29.38 6.18,19.02 -15.46,47.55 -16.19,11.75 -50,0 -16.19,-11.76 -15.46,-47.56 6.18,-19.03 40.45,-29.39"
+      stroke="white"
+      stroke-width="5"
+      opacity="0.2"
+      stroke-linejoin="round"
+    />
+  </defs>
+
+  <rect class="background" width="100%" height="100%" />
+
+
+  <use x="20" y="-25" href="#star-reverse" />
+  <use x="600" y="70" href="#star-reverse" />
+
+  <text x="5%" y="65%">Click here to visit my website!</text>
+  <text class="bold yellow underline" x="61%" y="65%">https://brighta19.github.io</text>
+</svg>

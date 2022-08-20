@@ -1,0 +1,88 @@
+<!-- Well, hello there! -->
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="800">
+  <style>
+    text { font: 150% Calibri, sans-serif; fill: white; text-shadow: 0 0 5px black; }
+    .big { font-size: 150%; }
+    .bold { font-weight: bold; }
+    .name { font-family: 'Comic Sans MS', sans-serif; font-weight: bold; text-decoration: underline; animation: name 1s infinite linear alternate; }
+    .star { animation: star 8s infinite linear; stroke: white; fill: white; }
+    .star#star-reverse { animation: star 8s infinite linear reverse; }
+    .background { fill: url(#bg); }
+
+    @keyframes name {
+      0% { fill: #ff8800; }
+      100% { fill: #ffdd00; }
+    }
+    @keyframes star {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4b0082">
+        <animate attributeName="stop-color" values="#4b0082;#2222cc;#4b0082" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#0000ff">
+        <animate attributeName="stop-color" values="#0000ff;#22ff66;#0000ff" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <polygon
+      id="star"
+      class="star"
+      points="20,0 40.45,29.38 6.18,19.02 -15.46,47.55 -16.19,11.75 -50,0 -16.19,-11.76 -15.46,-47.56 6.18,-19.03 40.45,-29.39"
+      stroke="white"
+      stroke-width="5"
+      opacity="0.2"
+      stroke-linejoin="round"
+    />
+    <polygon
+      id="star-reverse"
+      class="star"
+      points="20,0 40.45,29.38 6.18,19.02 -15.46,47.55 -16.19,11.75 -50,0 -16.19,-11.76 -15.46,-47.56 6.18,-19.03 40.45,-29.39"
+      stroke="white"
+      stroke-width="5"
+      opacity="0.2"
+      stroke-linejoin="round"
+    />
+  </defs>
+
+  <rect class="background" width="100%" height="100%" />
+
+  <use x="120" y="70" href="#star" />
+  <use x="740" y="380" href="#star" />
+  <use x="400" y="580" href="#star" />
+  <use x="650" y="700" href="#star" />
+  <use x="540" y="140" href="#star-reverse" />
+  <use x="240" y="300" href="#star-reverse" />
+  <use x="20" y="780" href="#star-reverse" />
+
+  <text x="5%" y="13%">
+    <tspan dy="0em" class="big bold">😁 Hellooooo!!</tspan>
+
+    <tspan dy="3em" x="5%">My name is 🌟<tspan class="name">Bright</tspan>🌟and I am a developing computer programmer.</tspan>
+    <tspan dy="1em" x="5%">I am currently a senior at 🏫<tspan class="bold">Binghamton University</tspan>, majoring in</tspan>
+    <tspan dy="1em" x="5%">💻<tspan class="bold">Computer Science</tspan>.</tspan>
+
+    <tspan dy="2em" x="5%">I spend majority of my time coding, but I also play some 🎮games and</tspan>
+    <tspan dy="1em" x="5%">watch 📺anime. I play a bit of 🎹piano too!</tspan>
+
+    <tspan dy="2em" x="5%">Here are some of my 🚀projects on GitHub!</tspan>
+    <tspan dy="1em" x="5%">Some of them are also showcased on my website.</tspan>
+
+    <tspan dy="2em" x="5%">I mostly know of 🌍web technologies, such as <tspan class="bold">HTML</tspan>, <tspan class="bold">CSS</tspan>, and <tspan class="bold">JS</tspan>. I'm</tspan>
+    <tspan dy="1em" x="5%">particularly interested in Progressive Web Apps (<tspan class="bold">PWA</tspan>)!</tspan>
+    <tspan dy="1em" x="5%">I know some javascript frameworks, which are <tspan class="bold">Svelte</tspan> and <tspan class="bold">React</tspan>, but</tspan>
+    <tspan dy="1em" x="5%">I'm still kind of a newbie.</tspan>
+
+    <tspan dy="2em" x="5%">I've also learned a few other languages along the way, such as <tspan class="bold">C</tspan>, <tspan class="bold">C++</tspan>,</tspan>
+    <tspan dy="1em" x="5%"><tspan class="bold">Java</tspan> and <tspan class="bold">Python</tspan>.</tspan>
+
+    <tspan dy="2em" x="5%">I'm planning to 📝learn more related to web dev, but also want to</tspan>
+    <tspan dy="1em" x="5%">expand to other areas in software development. It's can be pretty</tspan>
+    <tspan dy="1em" x="5%">intimidating though.</tspan>
+    <tspan dy="2em" x="5%">I'm hoping I could work on myself more along the way too ✨.</tspan>
+  </text>
+</svg>
