@@ -1,9 +1,4 @@
-<!-- LMAO What a dead readme, only 9 lines 😶 (well technically 10) -->
-![My information](info.svg)
-[![My website](site.svg)](https://brighta19.github.io)
-![Known skills](skills.svg)
+**Hello world!**
 
----
-\
-![Top Langs](https://github-readme-stats.vercel.app/api/?username=brighta19&theme=react)
-<!-- It was fun making this though 🥰 -->
+I am a *Full-Stack Software Engineer*, gaining new skills by building projects I find interesting.\
+Some of my technical skills include HTML, CSS, JavaScript, Node.JS, SvelteKit, SQL, Linux, and Figma.
